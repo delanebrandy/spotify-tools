@@ -1,16 +1,15 @@
 import './App.css';
-import Spot from './Spot';
 import Main from './pages/main';
+import Genre from './pages/genre-playlists';
 import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<main />} />
-        <Route path="/app" element={<Main />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/genre" element={<Genre />} />
       </Routes>
-      <Spot />
     </div>
   );
 }

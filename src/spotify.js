@@ -4,7 +4,7 @@ const spotifyApi = new SpotifyWebApi();
 
 const spotifyAuth = () => {
     const CLIENT_ID = '1c993a1df206421787be649ce5d81837';
-    const REDIRECT_URI = 'http://localhost:3001/';
+    const REDIRECT_URI = 'http://localhost:3000/genre/';
     const SCOPES = ['user-read-private', 'user-read-email'];
 
     const urlSearchParams = new URLSearchParams(window.location.search);
