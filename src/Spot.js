@@ -6,8 +6,10 @@ function Spot() {
         spotifyAuth()
             .then(() => {
                 // You can now use the spotifyApi object to make API calls
-                spotifyApi.getMe().then((data) => {
+                spotifyApi.getMyTopTracks().then((data) => {
                     console.log(data);
+                    // Do nothing
+
                 });
             })
             .catch((error) => {
