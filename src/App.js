@@ -1,15 +1,11 @@
 import './App.css';
 import Main from './pages/main';
-import Genre from './pages/genre-playlists';
-import { Route, Routes } from "react-router-dom"
+import Redir from "./pages/genre-playlists";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/genre" element={<Genre />} />
-      </Routes>
+        <Main />
     </div>
   );
 }
