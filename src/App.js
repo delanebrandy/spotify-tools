@@ -1,6 +1,5 @@
 import './App.css';
 import Main from './pages/main';
-import Redir from "./pages/genre-playlists";
 
 function App() {
   return (
